@@ -1,0 +1,16 @@
+student_groups = [["Іван", "Марія", "Олександр"], ["Анна", "Петро", "Ольга"], ["Максим", "Софія", "Артем",]]
+
+
+new_group_list = []
+
+for group in student_groups:
+    new_group = []
+
+    for student in group:
+        new_group.append(student + " - Python")
+
+
+    new_group_list.append(new_group)
+
+print(student_groups)
+print(new_group_list)
